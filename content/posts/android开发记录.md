@@ -31,7 +31,7 @@ draft: false
 
   这是仅仅一部分我折叠的标签页，当时开发这块的时候，每天都浏览巨多标签页，根本原因还是没有系统学过Android的UI设计与编写，导致只能自己不断的尝试。
 
-  ![image-20210610173711076](/android%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95/image-20210610173711076.png)
+  ![image-20210610173711076](/assets/android%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95/image-20210610173711076.png)
 
 - Labelsview推荐[github 开源](https://github.com/donkingliang/LabelsView)
 
