@@ -1,6 +1,6 @@
 baseURL: https://tongzhixin.cn/
 theme: pure
-title: Pure theme for Hugo
+title: Tongzhixin's blog
 copyright: CC BY 4.0 CN
 defaultContentLanguage: zh  # en/zh/...
 footnoteReturnLinkContents: ↩
