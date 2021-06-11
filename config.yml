@@ -122,11 +122,11 @@ params:
   site:
     logo:
       enabled: true
-      width: 32
-      height: 32
-      url: favicon-32x32.png
+      width: 40
+      height: 40
+      url: favicon.ico
     title: Tong # 页面title
-    favicon: favicon-32x32.png
+    favicon: favicon.ico
     board: <p>公告说明</p> # 公告牌
 
   # Share
