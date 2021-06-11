@@ -6,9 +6,21 @@
     <description>Recent content in Tags on Pure theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>CC BY 4.0 CN</copyright>
+    <lastBuildDate>Fri, 11 Jun 2021 15:24:27 +0800</lastBuildDate>
     
         <atom:link href="https://tongzhixin.cn/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Android开发记录</title>
+      <link>https://tongzhixin.cn/2021/06/android%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Fri, 11 Jun 2021 15:24:27 +0800</pubDate>
+      
+      <guid>https://tongzhixin.cn/2021/06/android%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95/</guid>
+      <description>&lt;h3 id=&#34;前言&#34;&gt;前言&lt;/h3&gt;
+&lt;p&gt;难得静下心来，记录一下本学期进行Android开发中一些踩坑点，以及感悟所得。&lt;/p&gt;
+&lt;p&gt;我此次参与开发的是一款小型的交友软件，规模只算上一个demo吧，具体地址如下：https://github.com/Rainy-Imola/AppFrontend&lt;/p&gt;</description>
+    </item>
     
   </channel>
 </rss>
