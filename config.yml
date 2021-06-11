@@ -25,6 +25,8 @@ outputFormats:          # use for search. recommend not to modify
 
 
 publishDir: docs
+staticDir:
+  - static
 outputs:
     home: ["HTML","RSS","SearchIndex"]  # recommend not to modify
 # sitemap
