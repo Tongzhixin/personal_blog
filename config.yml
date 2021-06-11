@@ -122,9 +122,9 @@ params:
       enabled: true
       width: 40
       height: 40
-      url: t.ico
+      url: favicon.ico
     title: Tong # 页面title
-    favicon: t.ico
+    favicon: favicon.ico
     board: <p>公告说明</p> # 公告牌
 
   # Share
