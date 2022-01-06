@@ -1,12 +1,11 @@
 ---
 title: "Bug Synthesis Challenging Bug-Finding Tools with Deep Faults"
-date: 2022-01-01T14:18:52+08:00
+date: 2022-01-06T22:18:52+08:00
 description: "通过符号执行获得的程序路径，借助约束求解（符号执行），创建状态转移，使程序在一定的输入数据下到达预定的漏洞位置。"
 tags: 
     - 论文
 categories:
     - 论文阅读
-
 draft: false
 ---
 
