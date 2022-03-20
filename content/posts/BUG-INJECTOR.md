@@ -46,17 +46,17 @@ draft: false
  - ast(p): the abstract syntax tree at p
  - name($v): the name of $v
  - type($v): the static type of $v
-![漏洞模板](assets/BUG-INJECTOR/2022-01-09-20-12-39.png)
+![漏洞模板](/assets/BUG-INJECTOR/2022-01-09-20-12-39.png)
 
 #### 执行过程
 
-![执行过程](assets/BUG-INJECTOR/2022-01-09-20-19-16.png)
+![执行过程](/assets/BUG-INJECTOR/2022-01-09-20-19-16.png)
   - Instrument方法重写主机程序的源代码，插入代码以进行动态跟踪。（sel）
   - Execute 进行动态分析，跟踪包括每个程序语句中所有范围内变量的值（目前仅限于基本类型和指针）。该算法使用测试输入运行经过instrument的程序，通过之前已有的先决条件找到漏洞插入点，并将其存储在数据库中。
   - 根据可插入点的数据库和相应的漏洞模板进行宿主源程序的改写，源代码重写涉及将关联的代码段插入宿主程序，然后使用宿主程序的前置条件匹配和类型兼容的作用域内变量重命名所有自由变量名。
   - bug触发验证
 
-  ![example](assets/BUG-INJECTOR/2022-01-09-20-35-09.png)
+  ![example](/assets/BUG-INJECTOR/2022-01-09-20-35-09.png)
 
 #### 评估
 以grep和nginx为宿主源程序
