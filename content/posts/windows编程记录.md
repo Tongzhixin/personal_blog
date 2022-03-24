@@ -12,10 +12,11 @@ draft: false
 ---
 
 ### 前言
+原版报告可参考：[https://github.com/Tongzhixin/windows_autorun/blob/main/report.md](https://github.com/Tongzhixin/windows_autorun/blob/main/report.md)
+记录付出很大精力的Windows安全原理大作业的开发过程以及自己的收获感悟。
 
-记录为期3天的Windows安全原理大作业的开发过程以及自己的收获感悟。
 
-此次大作业要求编写一款查看windows自启动项的软件，主要涉及了注册表、自启动目录、注册表中的service、driver、known dlls、ActiveX等等。<!--more-->我也参考了学长们的代码：https://github.com/rooki3ray/AutoRuns/blob/master/Publisher.h、https://github.com/thomas-li-sjtu/AutoRun/blob/master/auto/verified.cpp、https://github.com/entropy2333/autoruns/blob/master/sig.h、https://github.com/JianmingGuo/autorun/blob/master/autorun/autorun/autorun.h
+此次大作业要求编写一款查看windows自启动项的软件，主要涉及了注册表、自启动目录、注册表中的services、drivers、known dlls、ActiveX等等。<!--more-->
 
 ### 踩坑点
 
@@ -77,7 +78,7 @@ draft: false
 
 #### 感想
 
-由于参考了不少学长们的代码，在获取签名以及发行方这两个函数上面我没有做多少修改，我的工作量主要体现在了修改获取注册表子键、获取基于计划任务进行启动的自启动项相关递归函数、在主要函数中进行变形，以及修改字符类型等。
+
 
 虽然看上去工作量很少，但实际上需要花费大量的时间进行调试相关工作。
 
